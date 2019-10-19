@@ -8,6 +8,7 @@ Collection of Notes and Learning in the development process
 # Resources
 ## Other Projects
 * [Zynthian](http://zynthian.org/) ([github link](https://github.com/zynthian))
+* [balenaSound](https://www.balena.io/blog/turn-your-old-speakers-or-hi-fi-into-bluetooth-receivers-using-only-a-raspberry-pi/?utm_source=efp&utm_medium=etcher&utm_campaign=balena-sound&utm_content=v4)
 
 ## Development Resources
 ### Python
