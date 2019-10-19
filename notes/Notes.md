@@ -8,3 +8,10 @@ Collection of Notes and Learning in the development process
 # Resources
 ## Other Projects
 * [Zynthian](http://zynthian.org/) ([github link](https://github.com/zynthian))
+
+## Development Resources
+### Python
+* [Kivy GUI Framework](https://kivy.org/#home): Handy GUI dev Framework under MIT License
+
+### Raspberry Pi
+* [How to run a program at start](https://www.dexterindustries.com/howto/run-a-program-on-your-raspberry-pi-at-startup/)
