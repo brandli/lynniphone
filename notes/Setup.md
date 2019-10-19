@@ -1,5 +1,5 @@
 # Setup
 ## Setup Raspberry Pi
-1. Follow [these steps](https://blog.jongallant.com/2017/11/raspberrypi-setup/)
+* Follow [these steps](https://blog.jongallant.com/2017/11/raspberrypi-setup/)
   * Ignore hardware instructions
   * Use Raspbian with desktop and recommended software
