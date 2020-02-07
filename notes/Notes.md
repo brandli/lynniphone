@@ -16,3 +16,9 @@ Collection of Notes and Learning in the development process
 
 ### Raspberry Pi
 * [How to run a program at start](https://www.dexterindustries.com/howto/run-a-program-on-your-raspberry-pi-at-startup/)
+* [The ALSA sound system](https://raspberrypi.stackexchange.com/questions/80072/how-can-i-use-an-external-usb-sound-card-and-set-it-as-default)
+
+Various
+https://learn.adafruit.com/usb-audio-cards-with-a-raspberry-pi/updating-alsa-config
+https://raspberrypi.stackexchange.com/questions/19705/usb-card-as-my-default-audio-device
+https://raspberrypi.stackexchange.com/questions/80072/how-can-i-use-an-external-usb-sound-card-and-set-it-as-default
