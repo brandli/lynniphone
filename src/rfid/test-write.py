@@ -31,7 +31,7 @@ sys.path.append(rootdir)
 import RPi.GPIO as GPIO
 import signal
 
-name=raw_input("Please enter card name")
+name=input("Please enter card name")
 if len(name)>16:
     name=name[:16]
 data = [ord(x) for x in list(name)]
