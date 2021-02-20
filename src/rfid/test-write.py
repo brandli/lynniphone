@@ -29,9 +29,10 @@ rootdir = os.path.dirname(parentdir)
 sys.path.append(rootdir)
 
 import RPi.GPIO as GPIO
+import MFRC522
 import signal
 
-name=input("Please enter card name")
+name=input("Please enter card name: ")
 if len(name)>16:
     name=name[:16]
 data = [ord(x) for x in list(name)]
