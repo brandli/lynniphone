@@ -29,7 +29,6 @@ rootdir = os.path.dirname(parentdir)
 sys.path.append(rootdir)
 
 import RPi.GPIO as GPIO
-import lib.MFRC522-python
 import signal
 
 name=raw_input("Please enter card name")
