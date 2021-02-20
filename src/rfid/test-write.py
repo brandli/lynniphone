@@ -28,7 +28,7 @@ import signal
 
 name=raw_input("Please enter card name")
 if len(name)>16:
-    name=[:16]
+    name=name[:16]
 data = [ord(x) for x in list(name)]
 
 continue_reading = True
