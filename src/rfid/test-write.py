@@ -22,8 +22,14 @@
 #    along with MFRC522-Python.  If not, see <http://www.gnu.org/licenses/>.
 #
 
+import os, sys
+currentdir = os.path.dirname(os.path.realpath(__file__))
+parentdir = os.path.dirname(currentdir)
+rootdir = os.path.dirname(parentdir)
+sys.path.append(rootdir)
+
 import RPi.GPIO as GPIO
-from milanophone.lib import MFRC522
+import lib.MFRC522-python
 import signal
 
 name=raw_input("Please enter card name")
