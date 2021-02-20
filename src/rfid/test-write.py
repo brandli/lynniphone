@@ -23,7 +23,7 @@
 #
 
 import RPi.GPIO as GPIO
-import MFRC522
+from milanophone.lib import MFRC522
 import signal
 
 name=raw_input("Please enter card name")
