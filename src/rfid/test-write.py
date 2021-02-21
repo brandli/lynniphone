@@ -102,7 +102,7 @@ while continue_reading:
 
             # Check to see if it was written
             name = MIFAREReader.MFRC522_Read(8)
-            print(name.decode(),"\n")
+            print(''.join(name).decode(),"\n")
 
             # Stop
             MIFAREReader.MFRC522_StopCrypto1()
