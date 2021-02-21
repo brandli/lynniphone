@@ -90,8 +90,9 @@ while continue_reading:
 
             print("Sector 8 looked like this:")
             # Read block 8
-            MIFAREReader.MFRC522_Read(8)
-            print("\n")
+            name=MIFAREReader.MFRC522_Read(8)
+            namearray = bytearray(name)
+            print(namearray.decode(),"\n")
 
             print("Sector 8 is written:")
             # Write the data
