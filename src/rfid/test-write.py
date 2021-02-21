@@ -86,36 +86,23 @@ while continue_reading:
 
             # Fill the data with 0xFF
             for x in range(0,16):
-                data.append(0xFF)
+                data.append(0x00)
 
             print("Sector 8 looked like this:")
             # Read block 8
             MIFAREReader.MFRC522_Read(8)
             print("\n")
 
-            print("Sector 8 will now be filled with 0xFF:")
+            print("Sector 8 is written:")
             # Write the data
             MIFAREReader.MFRC522_Write(8, data)
             print("\n")
 
             print("It now looks like this:")
+
             # Check to see if it was written
-            MIFAREReader.MFRC522_Read(8)
-            print("\n")
-
-            data = []
-            # Fill the data with 0x00
-            for x in range(0,16):
-                data.append(0x00)
-
-            print("Now we fill it with 0x00:")
-            MIFAREReader.MFRC522_Write(8, data)
-            print("\n")
-
-            print("It is now empty:")
-            # Check to see if it was written
-            MIFAREReader.MFRC522_Read(8)
-            print("\n")
+            name = MIFAREReader.MFRC522_Read(8)
+            print(name+"\n")
 
             # Stop
             MIFAREReader.MFRC522_StopCrypto1()
