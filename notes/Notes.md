@@ -15,7 +15,8 @@ Collection of Notes and Learning in the development process
 * [Kivy GUI Framework](https://kivy.org/#home): Handy GUI dev Framework under MIT License
 
 ### Raspberry Pi
-* [How to run a program at start](https://www.dexterindustries.com/howto/run-a-program-on-your-raspberry-pi-at-startup/)
+* [The Ultipmate Guide To SystemD on Raspberry Pi](https://www.thedigitalpictureframe.com/ultimate-guide-systemd-autostart-scripts-raspberry-pi/)
+* ([How to run a program at start](https://www.dexterindustries.com/howto/run-a-program-on-your-raspberry-pi-at-startup/))
 * [The ALSA sound system](https://raspberrypi.stackexchange.com/questions/80072/how-can-i-use-an-external-usb-sound-card-and-set-it-as-default)
 
 Various
