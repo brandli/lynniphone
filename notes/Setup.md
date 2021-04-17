@@ -7,7 +7,7 @@
 
 ## Configuration
 >git clone https://github.com/brandli/lynniphone
->sudo cp lynniphone/config/boot/config.txt /boot/
+sudo cp lynniphone/config/boot/config.txt /boot/
 
 ## Dependencies (preliminary)
 >sudo apt-get install espeak
