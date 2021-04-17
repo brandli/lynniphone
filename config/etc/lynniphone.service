@@ -1,13 +1,12 @@
 [Unit]
 Description=Lynniphone Service
-After=network.target
+After=multi-user.target
 
 [Service]
+Type=idle
 User=pi
-WorkingDirectory=/home/pi
-#Environment="ENV_VAR_NEEDED=value"
-#ExecStartPre=/bin/bash -c `/usr/bin/env`
-ExecStart=/usr/bin/python3 /home/pi/lynniphone/src/init/init.py
+Environment=DISPLAY=:0
+ExecStart=/home/pi/lynniphone/src/init/init.sh
 
 [Install]
 WantedBy=multi-user.target
