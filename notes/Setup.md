@@ -5,3 +5,6 @@
   * Use Raspbian with desktop and recommended software
   * Turn on VNC Server: Preferences -> Raspberry Pi Configuration -> Interfaces
   * Add "alias python=python3" to .bashrc ("nano .bashrc")
+
+## Dependencies (preliminary)
+>sudo apt-get install espeak
