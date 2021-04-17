@@ -11,6 +11,7 @@
     sudo apt-get install espeak
     sudo apt-get install mplayer
     sudo apt-get install sox
+    sudo apt-get install amsynth
 
 ## Configuration
     git clone https://github.com/brandli/lynniphone
