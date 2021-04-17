@@ -54,7 +54,7 @@ dtparam=i2c_arm=on
 # Additional overlays and parameters are documented /boot/overlays/README
 
 # Enable audio (loads snd_bcm2835)
-dtparam=hifiberry-dac
+#dtparam=audio=on
 
 [pi4]
 # Enable DRM VC4 V3D driver on top of the dispmanx display stack
@@ -62,4 +62,5 @@ dtoverlay=vc4-fkms-v3d
 max_framebuffers=2
 
 [all]
+dtoverlay=hifiberry-dac
 #dtoverlay=vc4-fkms-v3d

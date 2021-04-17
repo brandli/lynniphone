@@ -1,2 +1,2 @@
-sudo python /home/pi/lynniphone/src/init/init.py &
+sudo python /home/pi/lynniphone/src/init/init.py & > /home/pi/Desktop/startup-log.txt 2>&1
 exit 0
